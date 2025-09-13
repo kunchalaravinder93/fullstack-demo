@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #ff6a00, #ee0979, #00c9ff, #92fe9d);
+      background-size: 400% 400%;
+      animation: gradientShift 12s ease infinite;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-top: 20vh;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    }
+
+    p {
+      font-size: 1.5em;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
+</head>
+<body>
+  <h1>🚀 Web Server Test Page</h1>
+  <p>If you can see this, your server is working! 🎉</p>
+</body>
+</html>
